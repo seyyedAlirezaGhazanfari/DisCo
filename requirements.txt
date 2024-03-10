@@ -17,7 +17,7 @@ deepdish
 configobj
 json_lines
 albumentations==1.1.0
-opencv-python==4.2.0.34
+opencv-python
 pudb==2019.2
 imageio==2.14.1
 imageio-ffmpeg==0.4.7
@@ -37,3 +37,5 @@ h5py
 gradio
 pytorch-fid
 lpips
+deepspeed
+git+https://github.com/microsoft/azfuse.git
