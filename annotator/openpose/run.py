@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt
 import copy
 import numpy as np
 from tqdm import tqdm
-import util
-import model
-from body import Body
+from . import util
+from . import model
+from .body import Body
 
 
 openpose2coco_order = [0, 15, 14, 17, 16, 5, 2, 6, 3, 7, 4, 11, 8, 12, 9, 13, 10]
