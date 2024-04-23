@@ -228,7 +228,7 @@ def main(args):
             if image is None:
                 print(f"image does not exists: {image_path}")
                 continue
-            anno_mask_path = "{}/groundsam/{}.mask.jpg".format(('/').join(image_path.split("/")[0:-1]),image_name)
+            anno_mask_path = "{}/groundsam_vis/{}.mask.jpg".format(('/').join(image_path.split("/")[0:-1]),image_name)
             mask_image = load_groundedsam_mask(anno_mask_path)
             mask_image = mask_image.resize(image.size)
 
