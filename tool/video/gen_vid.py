@@ -3,7 +3,7 @@ import numpy as np
 import os
 from tqdm import tqdm
 
-video_img_source_path = ''
+video_img_source_path = '/content/DisCo/test_data/'
 
 
 fps = 30
